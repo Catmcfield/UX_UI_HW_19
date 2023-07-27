@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #2E333D;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 20px;
+  padding: 70px;
+  
+}
+h1 {
+    font-family: "Quicksand", Sans-serif; font-size: 60px;
+    color: #2E333D;
+}
+h2 {
+font-family: "Quicksand", Sans-serif;font-size: 36px;
+font-weight: bold;
+color: #2E333D;
+
+}
+h3{
+font-family: "Quicksand", Sans-serif;font-size: 36px;
+font-weight: bold;
+color: #2E333D;
+}
+h4 {font-family: "Quicksand", Sans-serif;font-size: 24px;
+font-weight: bold;
+color: #2E333D;
+}
+h5 {font-family: "Quicksand", Sans-serif;font-size: 20px;
+font-weight: normal;
+color: #2E333D;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;
+    justify-content: center;
+    font-family: "Quicksand", Sans-serif;font-size: 24px;
+    color: #2E333D;
+}
+p {
+    font-family: "Quicksand", Sans-serif;font-size: 16px;
+    padding-right: 20px;
+    color: #2E333D;
+    
+}
+.navigation img {
+    
+    width: 20%;
+    padding: 1%;
+
+}
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    min-width: 50%;
+
+}
+
+ul {
+    display:flex;
+    gap: 20px; 
+    font-family: "Quicksand", Sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2E333D;
+    border-radius: 12px;
+    padding: 10px;
+    width: 50%;
+    
+
+
+}
+nav li {
+    list-style: none;
+    border-radius: 12px;
+    width: 325px;
+    text-align: center;
+    
+}
+
+
+
+.content img{
+    width:25%;
+    padding:25px;
+    float: right;
+    display: flex;
+    
+    
+}
+.content {
+    width: fit-content;
+    margin: 300px auto;
+    display: inline;
+    flex-wrap: wrap;
+      
+}
+.footer img {
+    width: 5%;
+    padding: 1%;
+    display: flex;
+    vertical-align: bottom;
+    align-items: flex-start;
+    vertical-align: text-bottom;
+    flex-wrap: wrap;
+}
+
+
+
+body {background: linear-gradient(to bottom, #DEEEFF 0%, #FFECDB 100%);
+font-family: "Quicksand", Sans-serif;}
+
+.footer.footer
+{
+    padding: 30px;
+    display: flex;
+    vertical-align: bottom;
+    justify-content: space-between;
+    padding-top: 50px;
+    margin: auto;
+
+    
+}
+.main {
+    width: 100%;
+    padding-left: 35px;
+    padding: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: #ECFFF5 20%;
+    width: 30%
+    
+}
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    text-align: start
+  }
+.content button {
+    background-color: #FFECDB;
+    border: #FFECDB;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+    
+}
+section button {
+    background-color: #FFECDB;
+    border: #FFECDB;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+   margin-bottom: 200px;
+   color: #033E1E;
+}
+section button:hover {
+    background-color: #ECFFF5;
+    border: #ECFFF5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+   margin-bottom: 200px;
+   color: #033E1E;
+}
+section button:active {
+    background-color: #DEEBFF;
+    border: #DEEBFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+   margin-bottom: 200px;
+   color: #033E1E;
+}
+.content button:hover {
+    background-color: #ECFFF5;
+    border: #ECFFF5;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+   margin-bottom: 200px;
+   color: #033E1E;
+}
+.content button:active {
+    background-color: #DEEBFF;
+    border: #DEEBFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 152px; 
+    height: 56px;
+    font-family: "Quicksand", sans serif; font-size: 24px;
+    text-align: center;
+    padding: 0px;
+    border-radius: 5px;
+   margin-bottom: 200px;
+   color: #033E1E;
+}
+ .My_Work img{
+    width: 50%;
+    align-items: left;
+    text-align: left;
+
+   }
+ .Creaven {
+    display: inline-flex;
+    gap: 50px;
+    margin: auto;
+}
+ .Creaven text{
+    
+    width: 50%;
+    display: inline-block;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-left: 0px;
+    
+    
+ }
+
+ .Creaven img
+ {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 50px;
+    float: right;
+    width: 50%;
+    height: 50%; 
+    
+ }
+ .Creaven button {
+    align-content: center;
+ }
+ 
+.Unicef {
+    display: flex;
+    gap: 50px;
+    margin: auto;
+}
+
+.Unicef-complete {
+        min-width: 30%;
+        max-width: 50%;
+        height: 50%; 
+          
+        
+      
+}
+.Unicef-text {
+    width: 50%;
+
+
+}
+.Unicef-logo {
+    width: 70%;
+    height: auto;
+}
+
+.DOL-logo img {
+    width:70%;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    
+    }
+    
+.DOL {
+    width: fit-content;
+    display: inline-block;
+    margin: auto;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    
+}
+.DOL button {
+    text-align: center;
+    justify-content: center;
+}
+
+.Tools {
+    width: fit-content;
+    margin: auto;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center; 
+   
+}
+
+.Tools-icons img {
+    width:50%;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+.Tools div {
+    text-align: center;
+}
+
+nav li:hover{
+    text-decoration: underline;
+}
+
+nav li:active {
+    text-decoration: underline;
+    background-color: #ECFFF5;
+} 
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        display: flex;
+    }
+    body {
+        flex-direction: column;
+        display: flex;
+    }
+    .content {
+        display: flex;
+    }
+
+
+
+  
+    .Unicef {
+        flex-direction: column;
+        display:flex;
+        width: 100%;
+        
+        
+    } 
+    .Unicef-complete {
+        
+        justify-content: center; 
+        width: 100%; 
+    }       
+
+    .Unicef-text {
+        display: flex;
+        width: 100%;
+    
+ 
+        
+    }
+    .Creaven {
+        flex-direction: column;
+        display:flex;
+        flex-wrap: nowrap;
+        gap: 100px;
+        width: 100%;
+    } 
+    .Creaven-text {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        display: flex;    
+    }     
+    .creaven img {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100% !important;   
+        display: flex; 
+    }   
+    .DOL-logo {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+    .DOL  {
+        flex-direction: column;
+        display: flex;
+        width: 50%;
+        
+    }
+   
+    
+    
+   
+
+    h1 {
+        font-family: "Quicksand", Sans-serif; font-size: 36px;
+        color: #2E333D;
+    }
+    h2 {
+    font-family: "Quicksand", Sans-serif;font-size: 24px;
+    font-weight: bold;
+    color: #2E333D;
+    
+    }
+    h3{
+    font-family: "Quicksand", Sans-serif;font-size: 24px;
+    font-weight: bold;
+    color: #2E333D;
+    }
+    h4 {font-family: "Quicksand", Sans-serif;font-size: 20px;
+    font-weight: bold;
+    color: #2E333D;
+    }
+    h5 {font-family: "Quicksand", Sans-serif;font-size: 20px;
+    font-weight: normal;
+    color: #2E333D; 
+
+}
+  
+    }
