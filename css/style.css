@@ -117,7 +117,7 @@ nav li {
 
 
 
-body {background: linear-gradient(to bottom, #DEEEFF 0%, #FFECDB 100%);
+body {background: linear-gradient(to bottom, #DEEBFF 0%, #FFECDB 100%);
 font-family: "Quicksand", Sans-serif;}
 
 .footer.footer
@@ -234,7 +234,7 @@ section button:active {
    color: #033E1E;
 }
  .My_Work img{
-    width: 50%;
+    width: 30%;
     align-items: left;
     text-align: left;
 
@@ -244,6 +244,7 @@ section button:active {
     display: inline-flex;
     gap: 50px;
     margin: auto;
+    padding-bottom: 100px;
 }
  .Creaven text{
     
@@ -279,6 +280,7 @@ section button:active {
     display: flex;
     gap: 50px;
     margin: auto;
+    padding-bottom: 100px;
 }
 
 .Unicef-complete {
@@ -300,30 +302,39 @@ section button:active {
 }
 
 .DOL-logo img {
+    display: inline;
     width:70%;
     padding-right: 50px;
     padding-bottom: 0px;
-    padding-left: 150px;
+    padding-left: 250px;
     padding-top: 20px;
     text-align: center;
     margin: center;
-    display: flex;
+    
+    
     
     }
     
 .DOL {
     width: fit-content;
-    display: inline-block;
-    margin: auto;
+    display: inline;
     flex-wrap: nowrap;
+    margin: auto;
     text-align: center;
     justify-content: center;
     
+    
+    
 }
-.DOL button {
+
+
+
+.DOL-logo button {
     text-align: center;
     justify-content: center;
-    margin: center;
+    margin-left: 45%;
+
+    
 }
 
 .Tools {
