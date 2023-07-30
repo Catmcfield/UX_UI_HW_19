@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 body {
   font-family: 'Quicksand', sans-serif;
   color: #2E333D;
@@ -74,7 +74,7 @@ ul {
     border-radius: 12px;
     padding: 10px;
     width: 50%;
-    margin: right;
+   margin-left: 30%;
     
 
 
@@ -84,6 +84,7 @@ nav li {
     border-radius: 12px;
     width: 300px;
     text-align: center;
+    
     
 }
 
@@ -104,12 +105,12 @@ nav li {
     flex-wrap: wrap;
       
 }
+
 .footer img {
     width: 5%;
     padding: 1%;
     display: flex;
     vertical-align: bottom;
-    align-items: flex-start;
     vertical-align: text-bottom;
     flex-wrap: wrap;
 }
@@ -144,7 +145,7 @@ font-family: "Quicksand", Sans-serif;}
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 5px;
     background-color: #ECFFF5 20%;
-    width: 30%
+    width: 30%;
     
 }
   /* Add some padding inside the card container */
@@ -162,6 +163,7 @@ font-family: "Quicksand", Sans-serif;}
     text-align: center;
     padding: 0px;
     border-radius: 5px;
+    opacity: 0;
     
 }
 section button {
@@ -176,6 +178,7 @@ section button {
     border-radius: 5px;
    margin-bottom: 200px;
    color: #033E1E;
+   opacity: 0;
 }
 section button:hover {
     background-color: #ECFFF5;
@@ -215,6 +218,7 @@ section button:active {
     border-radius: 5px;
    margin-bottom: 200px;
    color: #033E1E;
+   
 }
 .content button:active {
     background-color: #DEEBFF;
@@ -236,6 +240,7 @@ section button:active {
 
    }
  .Creaven {
+    flex-direction: row-reverse;
     display: inline-flex;
     gap: 50px;
     margin: auto;
@@ -243,19 +248,18 @@ section button:active {
  .Creaven text{
     
     width: 50%;
-    display: inline-block;
     flex-direction: row-reverse;
+    display: inline-block;
     flex-wrap: wrap;
     text-align: left;
-    padding-left: 0px;
-    
-    
+    padding-left: 0px;  
  }
 
  .Creaven img
  {
+   
+    float: right;
     display: flex;
-    flex-direction: row-reverse;
     padding-bottom: 50px;
     padding-top: 45px;
     float: right;
@@ -352,39 +356,35 @@ nav li:active {
 } 
 
 @media only screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        display: flex;
-    }
+    
     body {
         flex-direction: column;
+    }
+    .skills {
         display: flex;
+        flex-direction: row;
     }
     .content {
         display: flex;
     }
 
-
-
   
     .Unicef {
         flex-direction: column;
         display:flex;
-        width: 100%;
-        
+        width: 100%;   
         
     } 
     .Unicef-complete {
         
         justify-content: center; 
-        width: 100%; 
+         
     }       
 
     .Unicef-text {
         display: flex;
         width: 100%;
-    
- 
+
         
     }
     .Creaven {
@@ -422,25 +422,25 @@ nav li:active {
         font-family: "Quicksand", Sans-serif; font-size: 36px;
         color: #2E333D;
     }
-    h2 {
-    font-family: "Quicksand", Sans-serif;font-size: 24px;
-    font-weight: bold;
-    color: #2E333D;
-    
-    }
-    h3{
-    font-family: "Quicksand", Sans-serif;font-size: 24px;
-    font-weight: bold;
-    color: #2E333D;
-    }
-    h4 {font-family: "Quicksand", Sans-serif;font-size: 20px;
-    font-weight: bold;
-    color: #2E333D;
-    }
-    h5 {font-family: "Quicksand", Sans-serif;font-size: 20px;
-    font-weight: normal;
-    color: #2E333D; 
-    }
+        h2 {
+        font-family: "Quicksand", Sans-serif;font-size: 24px;
+        font-weight: bold;
+        color: #2E333D;
+        
+        }
+        h3{
+        font-family: "Quicksand", Sans-serif;font-size: 24px;
+        font-weight: bold;
+        color: #2E333D;
+        }
+        h4 {font-family: "Quicksand", Sans-serif;font-size: 20px;
+        font-weight: bold;
+        color: #2E333D;
+        }
+        h5 {font-family: "Quicksand", Sans-serif;font-size: 20px;
+        font-weight: normal;
+        color: #2E333D; 
 
+    }
   
     }
