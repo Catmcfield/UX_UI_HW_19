@@ -118,7 +118,9 @@ nav li {
     flex-wrap: wrap;
 }
 
-
+.creaven-button a {
+    text-decoration: none;
+}
 
 body {background: linear-gradient(to bottom, #DEEBFF 0%, #FFECDB 100%);
 font-family: "Quicksand", Sans-serif;}
